@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GuliKit KK3 KingKong 3 MAX Controller RETRO BLACK WHITE NS39'</initValue>
+      <name>itemName</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

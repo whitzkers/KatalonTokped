@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>grid_ItemYgDibeli</name>
+   <tag></tag>
+   <elementGuidId>41ae7898-b6c7-4353-8ea3-c95f38cdfd62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href=&quot;https://www.tokopedia.com/psenterprise/gulikit-kk3-kingkong-3-max-controller-retro-black-white-ns39-hitam-1-bulan-07fce?extParam=ivf%3Dtrue%26keyword%3Dgulikit+kk3+kingkong+3+max+controller+retro+black+white+ns39%26search_id%3D202510060908598D3BBA7425E7C908E2OM%26src%3Dsearch&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
