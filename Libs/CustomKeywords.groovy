@@ -30,21 +30,21 @@ def static "com.katalon.testcloud.FileExecutor.getFileDescriptor"(
 }
 
 
-def static "com.katalon.testcloud.FileExecutor.pushFileToDevice"(
-    	String destinationPath	
-     , 	String localFilePath	) {
-    (new com.katalon.testcloud.FileExecutor()).pushFileToDevice(
-        	destinationPath
-         , 	localFilePath)
-}
-
-
 def static "com.katalon.testcloud.FileExecutor.uploadFileToWeb"(
     	TestObject to	
      , 	String filePath	) {
     (new com.katalon.testcloud.FileExecutor()).uploadFileToWeb(
         	to
          , 	filePath)
+}
+
+
+def static "com.katalon.testcloud.FileExecutor.pushFileToDevice"(
+    	String destinationPath	
+     , 	String localFilePath	) {
+    (new com.katalon.testcloud.FileExecutor()).pushFileToDevice(
+        	destinationPath
+         , 	localFilePath)
 }
 
 
@@ -59,13 +59,13 @@ def static "com.katalon.testcloud.GeolocationExecutor.setMobileGeoLocation"(
 }
 
 
-def static "com.katalon.testcloud.BiometricsAuthenticator.authenticatePass"() {
-    (new com.katalon.testcloud.BiometricsAuthenticator()).authenticatePass()
+def static "com.katalon.testcloud.BiometricsAuthenticator.authenticateFail"() {
+    (new com.katalon.testcloud.BiometricsAuthenticator()).authenticateFail()
 }
 
 
-def static "com.katalon.testcloud.BiometricsAuthenticator.authenticateFail"() {
-    (new com.katalon.testcloud.BiometricsAuthenticator()).authenticateFail()
+def static "com.katalon.testcloud.BiometricsAuthenticator.authenticatePass"() {
+    (new com.katalon.testcloud.BiometricsAuthenticator()).authenticatePass()
 }
 
 
@@ -83,13 +83,6 @@ def static "com.katalon.testcloud.CameraImageInjectionExecutor.injectImage"(
 }
 
 
-def static "com.katalon.testcloud.ThrottleNetworkExecutor.setNetworkProfile"(
-    	String condition	) {
-    (new com.katalon.testcloud.ThrottleNetworkExecutor()).setNetworkProfile(
-        	condition)
-}
-
-
 def static "com.katalon.testcloud.ThrottleNetworkExecutor.customNetworkProfile"(
     	int downloadSpeed	
      , 	int uploadSpeed	
@@ -98,4 +91,11 @@ def static "com.katalon.testcloud.ThrottleNetworkExecutor.customNetworkProfile"(
         	downloadSpeed
          , 	uploadSpeed
          , 	latency)
+}
+
+
+def static "com.katalon.testcloud.ThrottleNetworkExecutor.setNetworkProfile"(
+    	String condition	) {
+    (new com.katalon.testcloud.ThrottleNetworkExecutor()).setNetworkProfile(
+        	condition)
 }

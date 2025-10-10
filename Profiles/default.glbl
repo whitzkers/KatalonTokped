@@ -9,4 +9,19 @@
       <initValue>'GuliKit KK3 KingKong 3 MAX Controller RETRO BLACK WHITE NS39'</initValue>
       <name>itemName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'witsqawicak@gmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'k4t4l0nT3$t!'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'katalontest'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
